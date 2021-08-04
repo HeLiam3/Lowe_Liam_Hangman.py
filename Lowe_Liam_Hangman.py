@@ -92,8 +92,8 @@ print_status(displayed_word_list, lives)
 
 # If lost, print that the user has lost
 if lives == 0:
-    print("you have lost")
+    print("you lose")
 
 # If won, print that the user has won
 elif '*' not in displayed_word_list:
-    print("congratulations you have won")
+    print("congratulations you win")
